@@ -28,7 +28,7 @@ function WeatherInfo() {
 
     axios
       .get(
-        `http://api.weatherapi.com/v1/current.json?key=f88da03c35f94df3a3e183319231602&q=${capital}&aqi=no`
+        `https://api.weatherapi.com/v1/current.json?key=f88da03c35f94df3a3e183319231602&q=${capital}&aqi=no`
       )
       .then((res) => {
         setWeatherData(res.data.current);
@@ -105,4 +105,3 @@ export default WeatherInfo;
 
 
 
-//81a512f9bfe94c0d8f1426fc508d8d0a
