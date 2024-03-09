@@ -1,0 +1,30 @@
+.inputdata{
+    padding: 70px 0;
+   
+    text-align: center;
+}
+
+.formdata>input{
+    
+    opacity: 0.8;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: large;
+    text-align: center;
+}
+
+button{
+    background-color:#4CAF50 ; /* Green */
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.addinfo{
+    text-align: start;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+}

@@ -1,0 +1,40 @@
+.infoheading{
+    opacity: 0.5;
+    padding: 0.5rem;
+    margin: 2rem;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.countryInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countryInfo>p{
+   margin-bottom: 0;
+   padding: 2px;
+   color: brown;
+   font-weight: 500;
+}
+.lonp{
+    margin-bottom: 0.5rem !important;
+}
+
+.notcountry{
+   text-align: center;
+   color: red;
+   opacity: 0.5;
+   font-weight: 500;
+}
+
+.nodata{
+    text-align: center;
+    margin-top: 2rem;
+    color:red;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+}
